@@ -1,7 +1,7 @@
 #How can I change the row names of a txt file using gsub?
 
 txtfile <- data.frame(txtfile.txt, check.names = F)
-txtfile$col.header <- gsub("oldrowname1", "newrowname1", txtfile$col.header) ##col.header is the header of rows to be renamed. 
+txtfile$col.header <- gsub("oldrowname1", "newrowname1", txtfile$col.header) ##col.header is the header column with rows to be renamed. 
 txtfile$col.header <- gsub("oldrowname2", "newrowname2", txtfile$col.header) ##oldrowname2, name of row to be renamed. 
 txtfile$col.header <- gsub("oldrowname3", "newrowname3", txtfile$col.header) ##newrowname3, name of row after renamed. 
 
